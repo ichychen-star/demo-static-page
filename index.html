@@ -3,105 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>台積電 - 台灣積體電路製造公司</title>
+    <title>國小三年級社會課考卷</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <h1>台積電</h1>
-            <p>台灣積體電路製造股份有限公司</p>
+            <h1>國小三年級社會課考卷</h1>
+            <p>測試您的社會知識</p>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#intro">介紹</a></li>
-                <li><a href="#history">歷史</a></li>
-                <li><a href="#tech">技術</a></li>
-                <li><a href="#products">產品</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <section id="intro" class="hero">
+    <section id="quiz" class="hero">
         <div class="container">
-            <h2>全球領先的晶圓代工廠</h2>
-            <p>台積電是全球最大的半導體晶圓代工廠，專注於先進製程技術，為全球客戶提供高品質的晶片製造服務。</p>
-            <div class="stats">
-                <div class="stat">
-                    <h3>1987</h3>
-                    <p>成立年份</p>
+            <h2>開始考試</h2>
+            <p>請回答以下問題。每題選擇一個答案。</p>
+            <form id="quiz-form">
+                <div class="question">
+                    <h3>1. 台灣的首都是哪裡？</h3>
+                    <label><input type="radio" name="q1" value="a"> a) 高雄</label><br>
+                    <label><input type="radio" name="q1" value="b"> b) 台北</label><br>
+                    <label><input type="radio" name="q1" value="c"> c) 台中</label>
                 </div>
-                <div class="stat">
-                    <h3>60%</h3>
-                    <p>全球市場佔有率</p>
+                <div class="question">
+                    <h3>2. 台灣最大的島嶼是什麼？</h3>
+                    <label><input type="radio" name="q2" value="a"> a) 台灣島</label><br>
+                    <label><input type="radio" name="q2" value="b"> b) 澎湖島</label><br>
+                    <label><input type="radio" name="q2" value="c"> c) 金門島</label>
                 </div>
-                <div class="stat">
-                    <h3>5nm</h3>
-                    <p>先進製程</p>
+                <div class="question">
+                    <h3>3. 台灣的國旗上有幾顆星星？</h3>
+                    <label><input type="radio" name="q3" value="a"> a) 3顆</label><br>
+                    <label><input type="radio" name="q3" value="b"> b) 5顆</label><br>
+                    <label><input type="radio" name="q3" value="c"> c) 7顆</label>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="history" class="section">
-        <div class="container">
-            <h2>歷史發展</h2>
-            <p>台積電由張忠謀博士於1987年創立，最初專注於晶圓代工業務。隨著半導體技術的進步，台積電不斷創新，成為全球半導體產業的領導者。</p>
-            <ul>
-                <li>1987年：台積電成立</li>
-                <li>1994年：股票上市</li>
-                <li>2000年：推出0.13微米製程</li>
-                <li>2018年：量產7奈米製程</li>
-                <li>2020年：推出5奈米製程</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="tech" class="section">
-        <div class="container">
-            <h2>先進技術</h2>
-            <p>台積電持續投資研發，領先業界推出多項先進製程技術，包括FinFET、3D堆疊等。</p>
-            <div class="tech-grid">
-                <div class="tech-item">
-                    <h3>3奈米製程</h3>
-                    <p>業界最先進的製程技術，提供更高的效能和更低的功耗。</p>
+                <div class="question">
+                    <h3>4. 台灣的最高山是哪座？</h3>
+                    <label><input type="radio" name="q4" value="a"> a) 玉山</label><br>
+                    <label><input type="radio" name="q4" value="b"> b) 阿里山</label><br>
+                    <label><input type="radio" name="q4" value="c"> c) 陽明山</label>
                 </div>
-                <div class="tech-item">
-                    <h3>FinFET技術</h3>
-                    <p>三維電晶體結構，提升晶片效能和密度。</p>
+                <div class="question">
+                    <h3>5. 台灣的國花是什麼？</h3>
+                    <label><input type="radio" name="q5" value="a"> a) 梅花</label><br>
+                    <label><input type="radio" name="q5" value="b"> b) 蓮花</label><br>
+                    <label><input type="radio" name="q5" value="c"> c) 櫻花</label>
                 </div>
-                <div class="tech-item">
-                    <h3>3D IC</h3>
-                    <p>三維積體電路技術，實現更高整合度。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="products" class="section">
-        <div class="container">
-            <h2>主要產品與服務</h2>
-            <p>台積電為全球各大晶片設計公司提供代工服務，涵蓋手機、電腦、汽車等領域。</p>
-            <div class="product-list">
-                <div class="product">
-                    <h3>手機晶片</h3>
-                    <p>為Apple、Qualcomm等客戶製造高性能手機處理器。</p>
-                </div>
-                <div class="product">
-                    <h3>人工智慧晶片</h3>
-                    <p>支援AI應用，提供高效能運算晶片。</p>
-                </div>
-                <div class="product">
-                    <h3>車用晶片</h3>
-                    <p>先進駕駛輔助系統和自動駕駛晶片。</p>
-                </div>
+                <button type="button" id="submit-btn">提交答案</button>
+            </form>
+            <div id="result" style="display: none;">
+                <h3>您的成績</h3>
+                <p id="score"></p>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 台積電. All rights reserved.</p>
+            <p>&copy; 2023 國小社會課考卷. 祝您好運！</p>
         </div>
     </footer>
 
