@@ -3,16 +3,16 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 50%, #a29bfe 100%);
+    background: linear-gradient(135deg, #e8f4fd 0%, #fef0f8 50%, #edfaf4 100%);
     color: #2d3436;
     line-height: 1.6;
 }
 
 header {
-    background: #fd79a8;
+    background: #6aabcf;
     padding: 1rem 0;
     text-align: center;
-    border-bottom: 5px solid #e84393;
+    border-bottom: 5px solid #4a8fb5;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
@@ -26,13 +26,13 @@ header {
 .logo p {
     margin: 0;
     font-size: 1rem;
-    color: #ffeaa7;
+    color: #dff0fb;
 }
 
 .hero {
     padding: 4rem 0;
     text-align: center;
-    background: linear-gradient(45deg, #74b9ff 0%, #0984e3 100%);
+    background: linear-gradient(45deg, #a8d8ea 0%, #6aabcf 100%);
     border-radius: 0 0 50% 50% / 0 0 20px 20px;
 }
 
@@ -47,7 +47,7 @@ header {
     font-size: 1.2rem;
     max-width: 600px;
     margin: 0 auto 2rem;
-    color: #ffeaa7;
+    color: #dff0fb;
 }
 
 #quiz-form {
@@ -61,7 +61,7 @@ header {
     padding: 2rem;
     margin-bottom: 2rem;
     border-radius: 20px;
-    border: 3px solid #fd79a8;
+    border: 3px solid #a8d8ea;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -72,7 +72,7 @@ header {
 }
 
 .question h3 {
-    color: #fd79a8;
+    color: #4a8fb5;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -88,7 +88,7 @@ label {
 }
 
 label:hover {
-    background: #ffeaa7;
+    background: #e8f4fd;
 }
 
 input[type="radio"] {
@@ -97,7 +97,7 @@ input[type="radio"] {
 }
 
 button {
-    background: #00b894;
+    background: #5bab94;
     color: #ffffff;
     border: none;
     padding: 1rem 2rem;
@@ -109,7 +109,7 @@ button {
 }
 
 button:hover {
-    background: #00cec9;
+    background: #48957e;
     transform: scale(1.05);
 }
 
@@ -118,16 +118,16 @@ button:hover {
     padding: 2rem;
     background: #ffffff;
     border-radius: 20px;
-    border: 3px solid #fd79a8;
+    border: 3px solid #a8d8ea;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
 
 footer {
-    background: #fd79a8;
+    background: #6aabcf;
     padding: 2rem 0;
     text-align: center;
     color: #ffffff;
-    border-top: 5px solid #e84393;
+    border-top: 5px solid #4a8fb5;
 }
 
 @media (max-width: 768px) {
