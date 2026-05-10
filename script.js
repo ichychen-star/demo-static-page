@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const answers = {
         q1: 'b', // 台北
         q2: 'a', // 台灣島
-        q3: 'b', // 5顆
+        q3: 'b', // 10月10日
         q4: 'a', // 玉山
         q5: 'b'  // 蓮花
     };
