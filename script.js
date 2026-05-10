@@ -72,6 +72,7 @@
     elQuiz.hidden = false;
     elRail.classList.add('on');
     updateNav(0);
+    requestAnimationFrame(() => elQuiz.scrollIntoView({ behavior: 'smooth' }));
   });
 
   btnNext.addEventListener('click', () => {
@@ -91,6 +92,7 @@
     elQuiz.hidden   = true;
     elResult.hidden = false;
     elRail.classList.remove('on');
+    requestAnimationFrame(() => elResult.scrollIntoView({ behavior: 'smooth' }));
 
     const pct  = Math.round((score / TOTAL) * 100);
     const msgs = [
@@ -141,6 +143,7 @@
     elQuiz.hidden   = false;
     elRail.classList.add('on');
     updateNav(0);
+    requestAnimationFrame(() => elQuiz.scrollIntoView({ behavior: 'smooth' }));
 
     requestAnimationFrame(() => {
       cards.forEach(c => { c.style.transition = ''; });
